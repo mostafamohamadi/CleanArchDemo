@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Mvc", "CleanArch.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Domain", "CleanArch.Domain\CleanArch.Domain.csproj", "{6A74777F-50BD-47E6-8E79-B0B031B8B273}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data\CleanArch.Infra.Data.csproj", "{B4C138D8-36FD-4516-A8EF-98B9DFAAEA28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data\CleanArch.Infra.Data.csproj", "{B4C138D8-36FD-4516-A8EF-98B9DFAAEA28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Application", "CleanArch.Application\CleanArch.Application.csproj", "{E45B5CEF-73D1-458F-983F-ACF81D14B05A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{B4C138D8-36FD-4516-A8EF-98B9DFAAEA28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4C138D8-36FD-4516-A8EF-98B9DFAAEA28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4C138D8-36FD-4516-A8EF-98B9DFAAEA28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E45B5CEF-73D1-458F-983F-ACF81D14B05A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45B5CEF-73D1-458F-983F-ACF81D14B05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45B5CEF-73D1-458F-983F-ACF81D14B05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45B5CEF-73D1-458F-983F-ACF81D14B05A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{4E0B8C1A-4D0D-4592-8453-4A396486340B} = {41932BB1-0192-4418-B79F-943BBADD75A4}
 		{6A74777F-50BD-47E6-8E79-B0B031B8B273} = {1784B8DE-63B5-4465-98C5-37077EEE538D}
 		{B4C138D8-36FD-4516-A8EF-98B9DFAAEA28} = {1714C623-171B-4746-9E6F-23A6B4C4439E}
+		{E45B5CEF-73D1-458F-983F-ACF81D14B05A} = {52EC255D-AF13-427C-85F6-E00091DD30D7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B5A6DA01-2A78-4A3B-97EB-A31815946203}
